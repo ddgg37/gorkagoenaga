@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <!-- the application context definition for the gorkagoenaga DispatcherServlet -->
+    
+	<!--*******************************Message Bundle*************************-->
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+     	<property name="basename" value="labels"/>
+   	</bean> 
+	
+	<bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+		<property name="paramName" value="language" />
+	</bean>
+ 
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+		<property name="defaultLocale" value="en" />
+	</bean>
+	
+	<bean id="handlerMapping" class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping">
+	    <property name="interceptors">
+	        <ref bean="localeChangeInterceptor" />
+	    </property>
+	</bean>
+	   	
+   	<!--*******************************Message Bundle*************************-->
+   	<bean id="defaultHandlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+   	
+	<bean name="/homePage.html" class="com.gorkagoenaga.HomePageController"/>
+	<bean name="/studies.html" class="com.gorkagoenaga.StudiesController"/>
+	<bean name="/professional.html" class="com.gorkagoenaga.ProfessionalController"/>	
+	<bean name="/hobbies.html" class="com.gorkagoenaga.HobbiesController"/>
+	<bean name="/projects.html" class="com.gorkagoenaga.ProjectsController"/>
+	<bean name="/videopresentation.html" class="com.gorkagoenaga.VideoController"/>
+	
+	<bean name="/contactme.html" class="com.gorkagoenaga.ContactmeController">
+		<property name="commandClass" value="com.gorkagoenaga.beans.Contactme"/>
+	    <property name="formView" value="contactme"/>
+	    <property name="successView" value="contactme.html"/>
+	    <property name="validator" ref="contactmeValidator"/>
+	    <property name="messageSource" ref="messageSource"/>
+	</bean>
+	
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+      <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+      <property name="prefix" value="/WEB-INF/jsp/"/>
+      <property name="suffix" value=".jsp"/>
+    </bean>
+    
+    <bean id="contactmeValidator" class="com.gorkagoenaga.validation.ContactmeValidator">
+		<property name="messageSource" ref="messageSource"/>
+	</bean>
+	
+<!-- 	<bean id="contextApplicationSupport" class="com.stanleygibbons.spring.ApplicationContextSupport"></bean> -->
+</beans>
