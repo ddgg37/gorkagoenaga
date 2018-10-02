@@ -88,63 +88,70 @@
 		<div style="text-align:left;"><a href="?language=en">English</a>|<a href="?language=es">Spanish</a></div>
 		<div id="content" style="width:900px">
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='inventcommercedate.name'/><a href="http://www.inventcommerce.com" target="_blank"><spring:message code='inventcommerce.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='superdrugdate.name'/><a href="https://www.superdrug.com" target="_blank"><spring:message code='superdrug.name'/></a></h2>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry" id="superdrug" style="display: none;">
+					<spring:message code='superdrug.text'/>
+				</div>
+			</div>
+			<div class="post" >
+				<h2 class="title" style="font-size:18px;"><spring:message code='inventcommercedate.name'/><a href="https://www.inventcommerce.com" target="_blank"><spring:message code='inventcommerce.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="inventcommerce" style="display: none;">
 					<spring:message code='inventcommerce.text'/>
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='scenericdate.name'/><a href="http://www.sceneric.com" target="_blank"><spring:message code='sceneric.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='scenericdate.name'/><a href="https://www.sceneric.com" target="_blank"><spring:message code='sceneric.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="sceneric" style="display: none;">
 					<spring:message code='sceneric.text'/>
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='glistdate.name'/><a href="http://www.guestlist.me.uk/london_dj_profiles.html" target="_blank"><spring:message code='glist.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='glistdate.name'/><a href="https://www.guestlist.me.uk/london_dj_profiles.html" target="_blank"><spring:message code='glist.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="glist" style="display: none;">
 					<spring:message code='glist.text'/>					
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='betapackdate.name'/><a href="http://www.guiadeprensa.com/directorio/zindexs3empresa.php?id=2853" target="_blank"><spring:message code='betapack.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='betapackdate.name'/><a href="https://www.guiadeprensa.com/directorio/zindexs3empresa.php?id=2853" target="_blank"><spring:message code='betapack.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="betapack" style="display: none;">
 					<spring:message code='betapack.text'/>
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='masoftdate.name'/><a href="http://www.e-masoft.com/node/1" target="_blank"><spring:message code='masoft.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='masoftdate.name'/><a href="https://www.e-masoft.com/node/1" target="_blank"><spring:message code='masoft.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="masoft" style="display: none;">
 					<spring:message code='masoft.text'/>
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='kerlandate.name'/><a href="http://www.alacrastore.com/deal-snapshot/Centro_de_Calculo_de_Sabadell_acquires_Kerlan_Informatica-325412"><spring:message code='kerlan.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='kerlandate.name'/><a href="https://www.alacrastore.com/deal-snapshot/Centro_de_Calculo_de_Sabadell_acquires_Kerlan_Informatica-325412"><spring:message code='kerlan.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="kerlan" style="display: none;">
 					<spring:message code='kerlan.text'/>
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='somedate.name'/><a href="http://www.somesi.com/" target="_blank"><spring:message code='some.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='somedate.name'/><a href="https://www.somesi.com/" target="_blank"><spring:message code='some.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="some" style="display: none;">
 					<spring:message code='some.text'/>
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='oronadate.name'/><a href="http://www.orona.es/en//index.php" target="_blank"><spring:message code='orona.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='oronadate.name'/><a href="https://www.orona.es/en//index.php" target="_blank"><spring:message code='orona.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="orona" style="display: none;">
 					<spring:message code='orona.text'/>
 				</div>
 			</div>
 			<div class="post" >
-				<h2 class="title" style="font-size:18px;"><spring:message code='alecopdate.name'/><a href="http://www.alecop.com/" target="_blank"><spring:message code='alecop.name'/></a></h2>
+				<h2 class="title" style="font-size:18px;"><spring:message code='alecopdate.name'/><a href="https://www.alecop.com/" target="_blank"><spring:message code='alecop.name'/></a></h2>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry" id="alecop" style="display: none;">
 					<spring:message code='alecop.text'/>
@@ -156,7 +163,7 @@
 		
 		<!-- end #sidebar -->
 		<div style="clear: both;">&nbsp;</div>
-		<div></div><spring:message code='gorkacv.name'/>&nbsp;<a href="pdf/GorkaGoenaga2014.pdf" target="_blank"><spring:message code='here.name'/></a></div>
+		<div></div><spring:message code='gorkacv.name'/>&nbsp;<a href="pdf/GorkaGoenaga2018.pdf" target="_blank"><spring:message code='here.name'/></a></div>
 	</div>
 	
 	<!-- end #page -->

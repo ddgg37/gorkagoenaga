@@ -92,6 +92,20 @@
 				</div>
 			</div>
 			<div class="post">
+				<h3 class="title"><spring:message code='project7.name'/></h3>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<spring:message code='project7.text'/>
+				</div>
+			</div>
+			<div class="post">
+				<h3 class="title"><spring:message code='project6.name'/></h3>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<spring:message code='project6.text'/>
+				</div>
+			</div>
+			<div class="post">
 				<h3 class="title"><spring:message code='project5.name'/></h3>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry">

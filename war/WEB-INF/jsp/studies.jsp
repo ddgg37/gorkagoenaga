@@ -155,8 +155,28 @@
 					<div style="width:50%;float:right;"><spring:message code='hybriscertification.text'/></div>										
 					<div style="text-align:center;"><img src="images/hybriscertification.png" width="206" height="292" usemap="#Map7"/></div>					
 				</div>
-			</div>						
-			<div style="clear: both;">&nbsp;</div>
+			</div>
+			<div class="post">
+				<h3 class="title"><spring:message code='studies.aulamentorMulti.name'/></h3>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<div style="width:40%;float:left;"><spring:message code='studies.aulamentorMulti.text'/></div>							
+					<div style="width:40%;float:right;">
+						<img src="images/aulamentorMulti1.PNG" width="350" height="248" usemap="#Map11"/>
+						<img src="images/aulamentorMulti2.PNG" width="350" height="248" usemap="#Map12"/>
+					</div>
+				</div>
+			</div>	
+			<div class="post">
+				<h3 class="title"><spring:message code='studies.java8.name'/></h3>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<div style="width:40%;float:left;"><spring:message code='studies.java8.text'/></div>							
+					<div style="width:40%;float:right;">
+						<img src="images/certificatej8.png" width="350" height="248" usemap="#Map13"/>
+					</div>
+				</div>
+			</div>					
 		</div>
 		
 		<!-- end #sidebar -->
@@ -174,6 +194,9 @@
 <map name="Map8" id="Map8"><area shape="rect" coords="2,0,350,248" href="images/aulaMentor.png" target="_blank" /></map>
 <map name="Map9" id="Map9"><area shape="rect" coords="2,0,350,248" href="images/eteoUnix.png" target="_blank" /></map>
 <map name="Map10" id="Map10"><area shape="rect" coords="2,0,350,248" href="images/lasfortitulo.png" target="_blank" /></map>
+<map name="Map11" id="Map11"><area shape="rect" coords="2,0,350,248" href="images/aulamentorMulti1.PNG" target="_blank" /></map>
+<map name="Map12" id="Map12"><area shape="rect" coords="2,0,350,248" href="images/aulamentorMulti2.PNG" target="_blank" /></map>
+<map name="Map13" id="Map13"><area shape="rect" coords="2,0,350,248" href="images/certificatej8.png" target="_blank" /></map>
 </div>
 
 <div id="footer">
